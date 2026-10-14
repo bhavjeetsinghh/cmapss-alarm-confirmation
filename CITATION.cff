@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Which alarm-logic findings transfer from bearings to turbofan engines? A confirmatory, label-free test on 709 C-MAPSS run-to-failure trajectories"
+authors:
+  - family-names: Hora
+    given-names: Bhavjeet Singh
+    orcid: "https://orcid.org/0009-0004-1991-0108"
+license: MIT
