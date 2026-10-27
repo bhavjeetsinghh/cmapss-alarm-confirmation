@@ -6,7 +6,7 @@ import cmapss_lib as cm
 DATA, RJ, P3J, OUT = sys.argv[1:5]
 E = cm.load(DATA); R = json.load(open(RJ)); P3 = json.load(open(P3J))
 BLUE, ORANGE, AQUA, INK, MUTED, GRID = '#2a78d6', '#eb6834', '#1baf7a', '#222222', '#6b6b6b', '#e4e4e0'
-plt.rcParams.update({'font.family': 'serif', 'font.serif': ['Times New Roman', 'DejaVu Serif'], 'font.size': 8, 'axes.titlesize': 8,
+plt.rcParams.update({'font.family': 'serif', 'font.serif': ['Times New Roman', 'Liberation Serif', 'DejaVu Serif'], 'font.size': 8, 'axes.titlesize': 8,
                      'axes.labelsize': 8, 'xtick.labelsize': 7, 'ytick.labelsize': 7, 'legend.fontsize': 7, 'axes.edgecolor': MUTED,
                      'axes.linewidth': 0.6, 'xtick.color': MUTED, 'ytick.color': MUTED, 'axes.grid': True, 'grid.color': GRID,
                      'grid.linewidth': 0.5, 'savefig.dpi': 600, 'axes.spines.top': False, 'axes.spines.right': False, 'legend.frameon': False})
